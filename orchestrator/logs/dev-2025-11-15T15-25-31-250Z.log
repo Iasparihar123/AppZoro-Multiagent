@@ -1,0 +1,25 @@
+{
+  "input": {
+    "task": {
+      "id": "task-1",
+      "description": "Implement GET /health route that returns { status: \"ok\", version: \"<package.json version>\" }",
+      "files": [
+        "sample-app/src/routes/health.js",
+        "sample-app/src/app.js"
+      ],
+      "tests": [
+        "sample-app/test/health.test.js"
+      ],
+      "dbChanges": "none"
+    },
+    "context": {
+      "appPath": "sample-app",
+      "repoRoot": ".."
+    }
+  },
+  "output": {
+    "patch": "--- MOCK PATCH ---\nThis is where a unified git diff will go in the real system.\nTask: Implement GET /health route that returns { status: \"ok\", version: \"<package.json version>\" }\nFiles: sample-app/src/routes/health.js, sample-app/src/app.js\nContext appPath: sample-app\n",
+    "commitMessage": "feat(health): add GET /health endpoint and tests (mock)",
+    "notes": "Mock developer output. Will be replaced by LLM-generated git diff."
+  }
+}
